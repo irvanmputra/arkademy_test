@@ -1,0 +1,9 @@
+<?php
+	function hitung_luas_persegi($sisi){
+		$luas = $sisi * $sisi;
+		return $luas;
+	}
+	
+	$luas_persegi = hitung_luas_persegi(12);
+	echo "Luas persegi yaitu: " . $luas_persegi;
+?>
